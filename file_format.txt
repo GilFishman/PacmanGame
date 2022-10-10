@@ -1,0 +1,30 @@
+Steps File format-
+1. Height
+2.Width
+3.Level
+4.Life
+5.Ghost level
+6.Num of ghost
+7.Ghosts location
+8.pacman location
+
+each movement written with the first letter of the creature name and the direction number
+P-pacman
+F-fruit
+G-ghost
+0,1- up
+2,3- down
+4,5-left
+6,7-right
+8-stay
+
+new fruit appear format= FA.value.x,y
+fruit disappear format= FD
+
+GAP-ghost ate pacman
+
+Result format- 
+D- game over
+W- winning the game
+M- moving to the next screen
+POT- point of time (pacman steps)
